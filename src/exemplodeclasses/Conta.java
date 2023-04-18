@@ -9,10 +9,13 @@ public class Conta {
     
     // Métodos
     void saqueConta(double valor) {
-        saldo -= valor; // equivale saldo=saldo-valor
+        saldo-=valor; // equivale saldo=saldo-valor
     }
     
     void depositoConta(double valor) {
-        saldo += valor; // saldo=saldo+valor
+        saldo+=valor ; // saldo=saldo+valor
+    }
+    Conta(){
+        saldo = 100;
     }
 }
